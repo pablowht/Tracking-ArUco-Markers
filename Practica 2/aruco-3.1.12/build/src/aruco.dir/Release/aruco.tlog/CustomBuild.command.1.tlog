@@ -1,0 +1,10 @@
+^C:\USERS\USER\DOCUMENTS\UNIVERSIDAD\TERCERO CARRERA\3.2. REALIDAD VIRTUAL\PRACTICA 2\ARUCO-3.1.12\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\bin\cmake.exe" "-SC:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/aruco-3.1.12" "-BC:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/aruco-3.1.12/build" --check-stamp-file "C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/aruco-3.1.12/build/src/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

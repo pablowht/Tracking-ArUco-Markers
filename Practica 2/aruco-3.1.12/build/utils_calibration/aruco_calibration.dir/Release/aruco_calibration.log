@@ -1,0 +1,12 @@
+﻿  Building Custom Rule C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/aruco-3.1.12/utils_calibration/CMakeLists.txt
+  aruco_calibration.cpp
+C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\aruco-3.1.12\src\fractallabelers\fractalmarker.h(38,32): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\aruco-3.1.12\src\fractallabelers/fractallabeler.h(41,76): warning C4244: 'return': conversión de 'double' a 'int'; posible pérdida de datos
+  calibrator.cpp
+C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\aruco-3.1.12\utils_calibration\calibrator.cpp(64,24): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\aruco-3.1.12\utils_calibration\calibrator.cpp(97,12): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\aruco-3.1.12\utils_calibration\calibrator.cpp(107,37): warning C4267: '=': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\aruco-3.1.12\utils_calibration\calibrator.cpp(112,38): warning C4267: '=': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\aruco-3.1.12\utils_calibration\calibrator.cpp(232,14): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+  Generando código...
+  aruco_calibration.vcxproj -> C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\aruco-3.1.12\build\bin\Release\aruco_calibration.exe
