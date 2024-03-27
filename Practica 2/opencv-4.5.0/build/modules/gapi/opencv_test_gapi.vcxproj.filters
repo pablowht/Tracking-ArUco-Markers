@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\common\gapi_compoundkernel_tests.cpp">
+      <Filter>Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\common\gapi_core_tests.cpp">
+      <Filter>Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\common\gapi_imgproc_tests.cpp">
+      <Filter>Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\common\gapi_operators_tests.cpp">
+      <Filter>Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\common\gapi_render_tests.cpp">
+      <Filter>Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\common\gapi_video_tests.cpp">
+      <Filter>Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\cpu\gapi_core_tests_cpu.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\cpu\gapi_core_tests_fluid.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\cpu\gapi_imgproc_tests_cpu.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\cpu\gapi_imgproc_tests_fluid.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\cpu\gapi_ocv_stateful_kernel_tests.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\cpu\gapi_operators_tests_cpu.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\cpu\gapi_operators_tests_fluid.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\cpu\gapi_video_tests_cpu.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\gapi_array_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\gapi_async_test.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\gapi_basic_hetero_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\gapi_compile_args_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\gapi_desc_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\gapi_fluid_parallel_rois_test.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\gapi_fluid_resize_test.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\gapi_fluid_roi_test.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\gapi_fluid_test.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\gapi_fluid_test_kernels.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\gapi_frame_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\gapi_gcompiled_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\gapi_gcomputation_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\gapi_gpu_test.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\gapi_kernel_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\gapi_opaque_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\gapi_plaidml_pipelines.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\gapi_planar_test.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\gapi_sample_pipelines.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\gapi_scalar_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\gapi_smoke_test.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\gapi_transform_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\gapi_typed_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\gapi_util_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\gpu\gapi_core_tests_gpu.cpp">
+      <Filter>Src\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\gpu\gapi_imgproc_tests_gpu.cpp">
+      <Filter>Src\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\gpu\gapi_operators_tests_gpu.cpp">
+      <Filter>Src\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\infer\gapi_infer_ie_test.cpp">
+      <Filter>Src\infer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\infer\gapi_infer_tests.cpp">
+      <Filter>Src\infer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\internal\gapi_int_backend_tests.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\internal\gapi_int_dynamic_graph.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\internal\gapi_int_executor_tests.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\internal\gapi_int_garg_test.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\internal\gapi_int_gmetaarg_test.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\internal\gapi_int_gmodel_builder_test.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\internal\gapi_int_island_fusion_tests.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\internal\gapi_int_island_tests.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\internal\gapi_int_pattern_matching_test.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\internal\gapi_int_perform_substitution_test.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\internal\gapi_int_proto_tests.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\internal\gapi_int_recompilation_test.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\internal\gapi_int_vectorref_test.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\internal\gapi_transactions_test.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\own\conc_queue_tests.cpp">
+      <Filter>Src\own</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\own\gapi_types_tests.cpp">
+      <Filter>Src\own</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\own\mat_tests.cpp">
+      <Filter>Src\own</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\own\scalar_tests.cpp">
+      <Filter>Src\own</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\render\ftp_render_test.cpp">
+      <Filter>Src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\render\gapi_render_tests_ocv.cpp">
+      <Filter>Src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\rmat\rmat_integration_tests.cpp">
+      <Filter>Src\rmat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\rmat\rmat_tests.cpp">
+      <Filter>Src\rmat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\rmat\rmat_view_tests.cpp">
+      <Filter>Src\rmat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\s11n\gapi_s11n_tests.cpp">
+      <Filter>Src\s11n</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\s11n\gapi_sample_pipelines_s11n.cpp">
+      <Filter>Src\s11n</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\streaming\gapi_streaming_tests.cpp">
+      <Filter>Src\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\test_main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\util\any_tests.cpp">
+      <Filter>Src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\util\optional_tests.cpp">
+      <Filter>Src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\util\variant_tests.cpp">
+      <Filter>Src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\gapi\opencv_test_gapi_pch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\common\gapi_core_tests.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\common\gapi_core_tests_inl.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\common\gapi_imgproc_tests.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\common\gapi_imgproc_tests_inl.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\common\gapi_operators_tests.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\common\gapi_operators_tests_inl.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\common\gapi_parsers_tests_common.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\common\gapi_render_tests.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\common\gapi_tests_common.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\common\gapi_tests_helpers.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\common\gapi_video_tests.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\common\gapi_video_tests_common.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\common\gapi_video_tests_inl.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\cpu\gapi_ocv_stateful_kernel_test_utils.hpp">
+      <Filter>Include\cpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\gapi_fluid_test_kernels.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\gapi_mock_kernels.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\opencl_kernels_test_gapi.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\rmat\rmat_test_common.hpp">
+      <Filter>Include\rmat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\test\test_precomp.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\gapi\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{46BC77A9-40B7-39C9-A26F-C3A8D40381EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\common">
+      <UniqueIdentifier>{159805CD-A40C-39E2-8303-BA63AB83D624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\cpu">
+      <UniqueIdentifier>{27D146C7-4523-33F7-BE0D-B1551E7A1CF0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\rmat">
+      <UniqueIdentifier>{39613482-A96C-3176-AB4F-4E16E65C79C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{345A5C7F-575B-361C-A2A2-5B8A6DF6B0DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\common">
+      <UniqueIdentifier>{45D622ED-BDE0-3C50-B01B-3A7D1105C977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\cpu">
+      <UniqueIdentifier>{CAEBD362-4EE5-3B4F-A4F9-F87294ACA620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\gpu">
+      <UniqueIdentifier>{18DAF604-85CE-35DA-817C-CF58240A9C1E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\infer">
+      <UniqueIdentifier>{22AB6C5C-AD8D-3782-9D29-AE52E779AD91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\internal">
+      <UniqueIdentifier>{AF955ADC-4203-3BF3-B4AA-66069D2D4319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\own">
+      <UniqueIdentifier>{2DE84B2D-0D25-3E5B-A562-408D728D0779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\render">
+      <UniqueIdentifier>{3E6633AA-1246-31EB-A724-04A31E535A81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\rmat">
+      <UniqueIdentifier>{21BE0BF3-893D-3E46-8F4C-85794FB9C91C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\s11n">
+      <UniqueIdentifier>{997CE46E-1C14-30E7-BD45-E73CD27CC032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\streaming">
+      <UniqueIdentifier>{607CC27A-F395-3F0C-8F30-03CF96AE626C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\util">
+      <UniqueIdentifier>{2ED88F48-F0C8-306C-8186-79127D71CE61}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

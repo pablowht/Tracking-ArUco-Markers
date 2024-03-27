@@ -1,0 +1,33 @@
+﻿  Processing OpenCL kernels (features2d)
+  Building Custom Rule C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/features2d/CMakeLists.txt
+  opencv_features2d_pch.cpp
+  affine_feature.cpp
+  agast.cpp
+  agast_score.cpp
+  akaze.cpp
+  bagofwords.cpp
+  blobdetector.cpp
+  brisk.cpp
+  draw.cpp
+  dynamic.cpp
+  evaluation.cpp
+  fast.cpp
+  fast_score.cpp
+  feature2d.cpp
+  gftt.cpp
+  kaze.cpp
+  AKAZEFeatures.cpp
+  KAZEFeatures.cpp
+C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\features2d\src\kaze\KAZEFeatures.cpp(348,73): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+  fed.cpp
+  nldiffusion_functions.cpp
+  keypoint.cpp
+  main.cpp
+  matchers.cpp
+  mser.cpp
+  orb.cpp
+  sift.dispatch.cpp
+  opencl_kernels_features2d.cpp
+  opencv_features2d_main.cpp
+     Creando biblioteca C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/build/lib/Release/opencv_features2d450.lib y objeto C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/build/lib/Release/opencv_features2d450.exp
+  opencv_features2d.vcxproj -> C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_features2d450.dll

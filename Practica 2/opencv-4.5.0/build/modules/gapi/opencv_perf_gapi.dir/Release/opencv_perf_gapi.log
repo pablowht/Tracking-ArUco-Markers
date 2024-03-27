@@ -1,0 +1,18 @@
+﻿  Building Custom Rule C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/gapi/CMakeLists.txt
+  opencv_perf_gapi_pch.cpp
+  gapi_core_perf_tests.cpp
+  gapi_imgproc_perf_tests.cpp
+  gapi_render_perf_tests.cpp
+  gapi_video_perf_tests.cpp
+  gapi_core_perf_tests_cpu.cpp
+  gapi_core_perf_tests_fluid.cpp
+  gapi_imgproc_perf_tests_cpu.cpp
+  gapi_imgproc_perf_tests_fluid.cpp
+  gapi_video_perf_tests_cpu.cpp
+  gapi_core_perf_tests_gpu.cpp
+  gapi_imgproc_perf_tests_gpu.cpp
+  gapi_compiler_perf_tests.cpp
+  perf_bench.cpp
+  perf_main.cpp
+  gapi_render_perf_tests_ocv.cpp
+  opencv_perf_gapi.vcxproj -> C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_perf_gapi.exe

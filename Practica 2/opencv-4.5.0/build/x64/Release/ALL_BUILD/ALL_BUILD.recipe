@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\x64\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_core450.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_imgproc450.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_imgcodecs450.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_videoio450.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_highgui450.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_annotation.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_flann450.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_features2d450.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_calib3d450.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_video450.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_gapi450.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_interactive-calibration.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_ml450.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_objdetect450.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\x64\Release\opencv_videoio_plugins</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_perf_calib3d.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_perf_core.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_perf_features2d.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_perf_gapi.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_perf_imgcodecs.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_perf_imgproc.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_perf_objdetect.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_photo450.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_perf_photo.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_stitching450.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_perf_stitching.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_perf_video.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_perf_videoio.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_test_calib3d.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_test_core.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_test_features2d.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_test_flann.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_test_gapi.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_test_highgui.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_test_imgcodecs.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_test_imgproc.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_test_ml.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_test_objdetect.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_test_photo.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_test_stitching.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_test_video.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_test_videoio.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_version.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_version_win32.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_visualisation.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\x64\Release\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

@@ -1,0 +1,19 @@
+﻿  Processing OpenCL kernels (stitching)
+  Building Custom Rule C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/stitching/CMakeLists.txt
+  opencv_stitching_pch.cpp
+  autocalib.cpp
+  blenders.cpp
+  camera.cpp
+  exposure_compensate.cpp
+  matchers.cpp
+  motion_estimators.cpp
+  seam_finders.cpp
+  stitcher.cpp
+  timelapsers.cpp
+  util.cpp
+  warpers.cpp
+  warpers_cuda.cpp
+  opencl_kernels_stitching.cpp
+  opencv_stitching_main.cpp
+     Creando biblioteca C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/build/lib/Release/opencv_stitching450.lib y objeto C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/build/lib/Release/opencv_stitching450.exp
+  opencv_stitching.vcxproj -> C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_stitching450.dll

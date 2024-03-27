@@ -1,0 +1,10 @@
+﻿  Building Custom Rule C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/dnn/CMakeLists.txt
+  opencv_perf_dnn_pch.cpp
+  perf_caffe.cpp
+  perf_common.cpp
+  perf_convolution.cpp
+  perf_convolution3d.cpp
+  perf_layer.cpp
+  perf_main.cpp
+  perf_net.cpp
+LINK : fatal error LNK1181: no se puede abrir el archivo de entrada '..\..\lib\Release\opencv_dnn450.lib'

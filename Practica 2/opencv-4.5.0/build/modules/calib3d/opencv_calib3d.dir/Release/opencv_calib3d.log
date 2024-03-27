@@ -1,0 +1,54 @@
+﻿  Processing OpenCL kernels (calib3d)
+  Building Custom Rule C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/calib3d/CMakeLists.txt
+  opencv_calib3d_pch.cpp
+  ap3p.cpp
+  calibinit.cpp
+  calibration.cpp
+  calibration_handeye.cpp
+  checkchessboard.cpp
+  chessboard.cpp
+  circlesgrid.cpp
+  compat_ptsetreg.cpp
+  dls.cpp
+  epnp.cpp
+  fisheye.cpp
+  five-point.cpp
+  fundam.cpp
+  homography_decomp.cpp
+  ippe.cpp
+  levmarq.cpp
+  main.cpp
+C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\calib3d\src\chessboard.cpp(1710,18): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\calib3d\src\chessboard.cpp(1711,18): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\calib3d\src\chessboard.cpp(1712,18): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\calib3d\src\chessboard.cpp(1713,18): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+  p3p.cpp
+  polynom_solver.cpp
+  posit.cpp
+  ptsetreg.cpp
+  quadsubpix.cpp
+  rho.cpp
+  solvepnp.cpp
+  stereobm.cpp
+  stereosgbm.cpp
+  triangulate.cpp
+  undistort.dispatch.cpp
+  upnp.cpp
+  degeneracy.cpp
+  dls_solver.cpp
+  essential_solver.cpp
+  estimator.cpp
+  fundamental_solver.cpp
+  gamma_values.cpp
+  homography_solver.cpp
+  local_optimization.cpp
+  pnp_solver.cpp
+  quality.cpp
+  ransac_solvers.cpp
+  sampler.cpp
+  termination.cpp
+  utils.cpp
+  opencl_kernels_calib3d.cpp
+  opencv_calib3d_main.cpp
+     Creando biblioteca C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/build/lib/Release/opencv_calib3d450.lib y objeto C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/build/lib/Release/opencv_calib3d450.exp
+  opencv_calib3d.vcxproj -> C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_calib3d450.dll

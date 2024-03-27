@@ -1,0 +1,26 @@
+﻿  Building Custom Rule C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/imgcodecs/CMakeLists.txt
+  opencv_imgcodecs_pch.cpp
+  loadsave.cpp
+  utils.cpp
+  grfmt_base.cpp
+  grfmt_bmp.cpp
+  grfmt_exr.cpp
+  grfmt_gdal.cpp
+  grfmt_gdcm.cpp
+  grfmt_hdr.cpp
+  grfmt_jpeg.cpp
+  grfmt_jpeg2000.cpp
+  grfmt_jpeg2000_openjpeg.cpp
+  grfmt_pam.cpp
+  grfmt_pfm.cpp
+  grfmt_png.cpp
+  grfmt_pxm.cpp
+  grfmt_sunras.cpp
+  grfmt_tiff.cpp
+  grfmt_webp.cpp
+  bitstrm.cpp
+  rgbe.cpp
+  exif.cpp
+  opencv_imgcodecs_main.cpp
+     Creando biblioteca C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/build/lib/Release/opencv_imgcodecs450.lib y objeto C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/build/lib/Release/opencv_imgcodecs450.exp
+  opencv_imgcodecs.vcxproj -> C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_imgcodecs450.dll

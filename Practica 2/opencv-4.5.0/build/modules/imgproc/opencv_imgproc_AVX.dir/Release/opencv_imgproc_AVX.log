@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/imgproc/CMakeLists.txt
+  corner.avx.cpp
+  accum.avx.cpp
+  opencv_imgproc_AVX.vcxproj -> C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\imgproc\opencv_imgproc_AVX.dir\Release\opencv_imgproc_AVX.lib

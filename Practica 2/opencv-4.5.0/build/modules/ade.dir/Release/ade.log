@@ -1,0 +1,19 @@
+﻿  Building Custom Rule C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/CMakeLists.txt
+  alloc.cpp
+  assert.cpp
+  check_cycles.cpp
+  edge.cpp
+  execution_engine.cpp
+  graph.cpp
+  memory_accessor.cpp
+  memory_descriptor.cpp
+  memory_descriptor_ref.cpp
+  memory_descriptor_view.cpp
+  metadata.cpp
+  metatypes.cpp
+  node.cpp
+  communications.cpp
+  search.cpp
+  subgraphs.cpp
+  topological_sort.cpp
+  ade.vcxproj -> C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\lib\Release\ade.lib

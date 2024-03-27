@@ -1,0 +1,13 @@
+﻿  Processing OpenCL kernels (objdetect)
+  Building Custom Rule C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/objdetect/CMakeLists.txt
+  opencv_objdetect_pch.cpp
+  cascadedetect.cpp
+  cascadedetect_convert.cpp
+  detection_based_tracker.cpp
+  hog.cpp
+  main.cpp
+  qrcode.cpp
+  opencl_kernels_objdetect.cpp
+  opencv_objdetect_main.cpp
+     Creando biblioteca C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/build/lib/Release/opencv_objdetect450.lib y objeto C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/build/lib/Release/opencv_objdetect450.exp
+  opencv_objdetect.vcxproj -> C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_objdetect450.dll

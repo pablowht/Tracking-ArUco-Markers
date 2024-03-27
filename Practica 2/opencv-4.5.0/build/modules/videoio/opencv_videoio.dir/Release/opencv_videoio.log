@@ -1,0 +1,16 @@
+﻿  Building Custom Rule C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/videoio/CMakeLists.txt
+  opencv_videoio_pch.cpp
+  videoio_registry.cpp
+  videoio_c.cpp
+  cap.cpp
+  cap_images.cpp
+  cap_mjpeg_encoder.cpp
+  cap_mjpeg_decoder.cpp
+  backend_static.cpp
+  container_avi.cpp
+  cap_dshow.cpp
+  cap_msmf.cpp
+  opencv_videoio_main.cpp
+  backend_plugin.cpp
+     Creando biblioteca C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/build/lib/Release/opencv_videoio450.lib y objeto C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/build/lib/Release/opencv_videoio450.exp
+  opencv_videoio.vcxproj -> C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_videoio450.dll

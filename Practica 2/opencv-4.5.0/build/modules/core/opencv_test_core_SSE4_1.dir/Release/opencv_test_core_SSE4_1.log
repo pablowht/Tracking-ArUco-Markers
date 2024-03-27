@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/core/CMakeLists.txt
+  test_intrin128.ssse3.cpp
+  test_intrin128.sse4_1.cpp
+  opencv_test_core_SSE4_1.vcxproj -> C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\core\opencv_test_core_SSE4_1.dir\Release\opencv_test_core_SSE4_1.lib

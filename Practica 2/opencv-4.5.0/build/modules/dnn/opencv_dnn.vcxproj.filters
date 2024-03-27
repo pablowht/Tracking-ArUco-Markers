@@ -1,0 +1,729 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\misc\caffe\opencv-caffe.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\misc\onnx\opencv-onnx.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\misc\tensorflow\attr_value.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\misc\tensorflow\function.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\misc\tensorflow\graph.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\misc\tensorflow\op_def.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\misc\tensorflow\tensor.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\misc\tensorflow\tensor_shape.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\misc\tensorflow\types.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\misc\tensorflow\versions.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\caffe\caffe_importer.cpp">
+      <Filter>Src\caffe</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\caffe\caffe_io.cpp">
+      <Filter>Src\caffe</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\caffe\caffe_shrinker.cpp">
+      <Filter>Src\caffe</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\darknet\darknet_importer.cpp">
+      <Filter>Src\darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\darknet\darknet_io.cpp">
+      <Filter>Src\darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\dnn.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\graph_simplifier.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\halide_scheduler.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\ie_ngraph.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\init.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\accum_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\batch_norm_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\blank_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\concat_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\const_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\convolution_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\correlation_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\crop_and_resize_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\detection_output_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\elementwise_layers.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\eltwise_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\flatten_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\flow_warp_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\fully_connected_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\layers_common.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\lrn_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\max_unpooling_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\mvn_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\normalize_bbox_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\padding_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\permute_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\pooling_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\prior_box_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\proposal_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\recurrent_layers.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\region_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\reorg_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\reshape_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\resize_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\scale_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\shuffle_channel_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\slice_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\softmax_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\split_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\model.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\nms.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\ocl4dnn\src\common.cpp">
+      <Filter>Src\ocl4dnn\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\ocl4dnn\src\math_functions.cpp">
+      <Filter>Src\ocl4dnn\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\ocl4dnn\src\ocl4dnn_conv_spatial.cpp">
+      <Filter>Src\ocl4dnn\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\ocl4dnn\src\ocl4dnn_inner_product.cpp">
+      <Filter>Src\ocl4dnn\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\ocl4dnn\src\ocl4dnn_lrn.cpp">
+      <Filter>Src\ocl4dnn\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\ocl4dnn\src\ocl4dnn_pool.cpp">
+      <Filter>Src\ocl4dnn\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\ocl4dnn\src\ocl4dnn_softmax.cpp">
+      <Filter>Src\ocl4dnn\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\onnx\onnx_graph_simplifier.cpp">
+      <Filter>Src\onnx</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\onnx\onnx_importer.cpp">
+      <Filter>Src\onnx</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\op_halide.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\op_inf_engine.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\op_vkcom.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\tengine4dnn\src\tengine_graph_convolution.cpp">
+      <Filter>Src\tengine4dnn\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\tensorflow\tf_graph_simplifier.cpp">
+      <Filter>Src\tensorflow</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\tensorflow\tf_importer.cpp">
+      <Filter>Src\tensorflow</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\tensorflow\tf_io.cpp">
+      <Filter>Src\tensorflow</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\torch\THDiskFile.cpp">
+      <Filter>Src\torch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\torch\THFile.cpp">
+      <Filter>Src\torch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\torch\THGeneral.cpp">
+      <Filter>Src\torch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\torch\torch_importer.cpp">
+      <Filter>Src\torch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\shader\avg_pool_spv.cpp">
+      <Filter>Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\shader\concat_spv.cpp">
+      <Filter>Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\shader\conv48_spv.cpp">
+      <Filter>Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\shader\conv_spv.cpp">
+      <Filter>Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\shader\dw_conv_spv.cpp">
+      <Filter>Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\shader\lrn_spv.cpp">
+      <Filter>Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\shader\max_pool_spv.cpp">
+      <Filter>Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\shader\permute_spv.cpp">
+      <Filter>Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\shader\prior_box_spv.cpp">
+      <Filter>Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\shader\relu_spv.cpp">
+      <Filter>Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\shader\softmax_spv.cpp">
+      <Filter>Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\src\buffer.cpp">
+      <Filter>Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\src\context.cpp">
+      <Filter>Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\src\internal.cpp">
+      <Filter>Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\src\op_base.cpp">
+      <Filter>Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\src\op_concat.cpp">
+      <Filter>Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\src\op_conv.cpp">
+      <Filter>Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\src\op_lrn.cpp">
+      <Filter>Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\src\op_permute.cpp">
+      <Filter>Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\src\op_pool.cpp">
+      <Filter>Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\src\op_prior_box.cpp">
+      <Filter>Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\src\op_relu.cpp">
+      <Filter>Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\src\op_softmax.cpp">
+      <Filter>Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\src\tensor.cpp">
+      <Filter>Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\vulkan\vk_functions.cpp">
+      <Filter>Src\vkcom\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\vulkan\vk_loader.cpp">
+      <Filter>Src\vkcom\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\dnn\opencl_kernels_dnn.cpp">
+      <Filter>Src\opencl\kernels\autogenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\dnn\opencv_dnn_pch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\dnn\opencv_dnn_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\include\opencv2\dnn.hpp">
+      <Filter>Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\include\opencv2\dnn\all_layers.hpp">
+      <Filter>Include\opencv2\dnn</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\include\opencv2\dnn\dict.hpp">
+      <Filter>Include\opencv2\dnn</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\include\opencv2\dnn\dnn.hpp">
+      <Filter>Include\opencv2\dnn</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\include\opencv2\dnn\dnn.inl.hpp">
+      <Filter>Include\opencv2\dnn</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\include\opencv2\dnn\layer.details.hpp">
+      <Filter>Include\opencv2\dnn</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\include\opencv2\dnn\layer.hpp">
+      <Filter>Include\opencv2\dnn</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\include\opencv2\dnn\shape_utils.hpp">
+      <Filter>Include\opencv2\dnn</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\include\opencv2\dnn\utils\inference_engine.hpp">
+      <Filter>Include\opencv2\dnn\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\include\opencv2\dnn\version.hpp">
+      <Filter>Include\opencv2\dnn</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\dnn\opencl_kernels_dnn.hpp">
+      <Filter>Src\opencl\kernels\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\caffe\caffe_io.hpp">
+      <Filter>Src\caffe</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\caffe\glog_emulator.hpp">
+      <Filter>Src\caffe</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\cuda\array.hpp">
+      <Filter>Src\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\cuda\atomics.hpp">
+      <Filter>Src\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\cuda\bbox_utils.hpp">
+      <Filter>Src\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\cuda\block_stride_range.hpp">
+      <Filter>Src\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\cuda\execution.hpp">
+      <Filter>Src\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\cuda\functors.hpp">
+      <Filter>Src\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\cuda\grid_stride_range.hpp">
+      <Filter>Src\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\cuda\index_helpers.hpp">
+      <Filter>Src\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\cuda\kernel_dispatcher.hpp">
+      <Filter>Src\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\cuda\limits.hpp">
+      <Filter>Src\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\cuda\math.hpp">
+      <Filter>Src\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\cuda\memory.hpp">
+      <Filter>Src\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\cuda\types.hpp">
+      <Filter>Src\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\cuda\vector_traits.hpp">
+      <Filter>Src\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\darknet\darknet_io.hpp">
+      <Filter>Src\darknet</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\dnn_common.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\graph_simplifier.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\halide_scheduler.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\ie_ngraph.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\layers_common.hpp">
+      <Filter>Src\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\layers\layers_common.simd.hpp">
+      <Filter>Src\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\nms.inl.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\ocl4dnn\include\common.hpp">
+      <Filter>Src\ocl4dnn\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\ocl4dnn\include\default_kernel_config.hpp">
+      <Filter>Src\ocl4dnn\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\ocl4dnn\include\math_functions.hpp">
+      <Filter>Src\ocl4dnn\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\ocl4dnn\include\ocl4dnn.hpp">
+      <Filter>Src\ocl4dnn\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\onnx\onnx_graph_simplifier.hpp">
+      <Filter>Src\onnx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\op_cuda.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\op_halide.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\op_inf_engine.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\op_vkcom.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\tengine4dnn\include\tengine_graph_convolution.hpp">
+      <Filter>Src\tengine4dnn\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\tensorflow\tf_graph_simplifier.hpp">
+      <Filter>Src\tensorflow</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\tensorflow\tf_io.hpp">
+      <Filter>Src\tensorflow</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\torch\THDiskFile.h">
+      <Filter>Src\torch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\torch\THFile.h">
+      <Filter>Src\torch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\torch\THFilePrivate.h">
+      <Filter>Src\torch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\torch\THGeneral.h">
+      <Filter>Src\torch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\include\buffer.hpp">
+      <Filter>Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\include\op_base.hpp">
+      <Filter>Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\include\op_concat.hpp">
+      <Filter>Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\include\op_conv.hpp">
+      <Filter>Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\include\op_lrn.hpp">
+      <Filter>Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\include\op_permute.hpp">
+      <Filter>Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\include\op_pool.hpp">
+      <Filter>Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\include\op_prior_box.hpp">
+      <Filter>Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\include\op_relu.hpp">
+      <Filter>Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\include\op_softmax.hpp">
+      <Filter>Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\include\tensor.hpp">
+      <Filter>Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\include\vkcom.hpp">
+      <Filter>Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\shader\spv_shader.hpp">
+      <Filter>Src\vkcom\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\src\common.hpp">
+      <Filter>Src\vkcom\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\src\context.hpp">
+      <Filter>Src\vkcom\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\src\internal.hpp">
+      <Filter>Src\vkcom\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\vulkan\function_list.inl.hpp">
+      <Filter>Src\vkcom\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\vulkan\vk_functions.hpp">
+      <Filter>Src\vkcom\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\vkcom\vulkan\vk_loader.hpp">
+      <Filter>Src\vkcom\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\cvconfig.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\opencv2\opencv_modules.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\CMakeFiles\b93fc924066f03d0f3b59dce0c14530d\opencl_kernels_dnn.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\opencl\activations.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\opencl\batchnorm.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\opencl\col2im.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\opencl\concat.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\opencl\conv_layer_spatial.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\opencl\conv_spatial_helper.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\opencl\detection_output.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\opencl\dummy.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\opencl\eltwise.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\opencl\gemm_buffer.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\opencl\gemm_image.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\opencl\im2col.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\opencl\lrn.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\opencl\math.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\opencl\matvec_mul.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\opencl\mvn.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\opencl\ocl4dnn_lrn.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\opencl\ocl4dnn_pooling.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\opencl\permute.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\opencl\pooling.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\opencl\prior_box.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\opencl\region.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\opencl\slice.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\opencl\softmax.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\dnn\src\opencl\softmax_loss.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\dnn\opencv_dnn_AVX.dir\$(Configuration)\layers_common.avx.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\dnn\opencv_dnn_AVX2.dir\$(Configuration)\layers_common.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\dnn\opencv_dnn_AVX512_SKX.dir\$(Configuration)\layers_common.avx512_skx.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\dnn\vs_version.rc">
+      <Filter>Src</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6E18E884-46CF-3E39-8449-E49E4F6411B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{46BC77A9-40B7-39C9-A26F-C3A8D40381EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2">
+      <UniqueIdentifier>{108395AA-CD2B-32B8-A67E-7AEE8784BAF8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\dnn">
+      <UniqueIdentifier>{3E2EA820-77EF-3D40-BDE4-F8FCCEE1B35C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\dnn\utils">
+      <UniqueIdentifier>{019FADE5-4C39-3751-AF64-15042B720F6B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{FF81AC09-2556-3C6F-8788-39D79CDE05F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4EFF04F0-7CA2-3811-9431-AC8D7ED367D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{345A5C7F-575B-361C-A2A2-5B8A6DF6B0DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\caffe">
+      <UniqueIdentifier>{0C7DAEBA-2E44-36E1-AF58-FCBFF68CA9A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\cuda">
+      <UniqueIdentifier>{B8033497-AEE7-3D24-BD18-A892748FA340}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\darknet">
+      <UniqueIdentifier>{5591670D-F2C8-3661-ACEA-B422E531B43C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\layers">
+      <UniqueIdentifier>{8DD71105-3614-3384-AFF0-E29F1523907E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\ocl4dnn">
+      <UniqueIdentifier>{1DE1D95D-F95A-3C19-B709-58055C7BCD32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\ocl4dnn\include">
+      <UniqueIdentifier>{A1FAA12C-D1FE-3634-BC28-94875C9C4A93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\ocl4dnn\src">
+      <UniqueIdentifier>{CCA653BF-72D9-3D0B-94D3-8362AD980D63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\onnx">
+      <UniqueIdentifier>{A469F054-2B02-38A7-864F-310788D1D5CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl">
+      <UniqueIdentifier>{C27282B6-B542-3D92-A5ED-83B5B2616882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl\kernels">
+      <UniqueIdentifier>{77C8D149-AA12-3783-95FF-EA8055B7C269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl\kernels\autogenerated">
+      <UniqueIdentifier>{5AB0FD78-E893-32D5-AE04-87A175649751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\tengine4dnn">
+      <UniqueIdentifier>{102A05C0-65CC-3137-9847-269C8E3CE0DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\tengine4dnn\include">
+      <UniqueIdentifier>{7CDFB72F-3850-3453-91DB-46DA2E473530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\tengine4dnn\src">
+      <UniqueIdentifier>{BE5C277D-0119-32FB-A419-6CF181EDABBD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\tensorflow">
+      <UniqueIdentifier>{DAE4998C-9A0C-31DE-81E6-DAF1FE3E751F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\torch">
+      <UniqueIdentifier>{DBAF8AA7-89F3-377D-AE28-369CFFB73B49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\vkcom">
+      <UniqueIdentifier>{FB9FD473-F9E2-355A-833B-46D35685874F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\vkcom\include">
+      <UniqueIdentifier>{50783CEB-18A0-305B-AB3C-93DD58470CC4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\vkcom\shader">
+      <UniqueIdentifier>{DBD24892-2B70-307E-9B2D-CD4910C99605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\vkcom\src">
+      <UniqueIdentifier>{AD08538E-A8C8-3EB2-B9CB-FFD0C27C5553}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\vkcom\vulkan">
+      <UniqueIdentifier>{B40E7F9F-79B1-3C5A-8869-F40CB9CB0C0A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

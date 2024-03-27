@@ -1,0 +1,16 @@
+﻿  Building Custom Rule C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/video/CMakeLists.txt
+  opencv_test_video_pch.cpp
+  test_bgfg_mog2.cpp
+  test_dis.cpp
+  test_optflow_farneback.cpp
+  test_OF_accuracy.cpp
+  test_OF_reproducibility.cpp
+  test_accum.cpp
+  test_camshift.cpp
+  test_ecc.cpp
+  test_estimaterigid.cpp
+  test_kalman.cpp
+  test_main.cpp
+  test_optflowpyrlk.cpp
+  test_optflowpyrlk.cpp
+  opencv_test_video.vcxproj -> C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_test_video.exe

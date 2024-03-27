@@ -1,0 +1,74 @@
+# Target labels
+ Main
+ opencv_objdetect
+ Module
+# Source files and their labels
+C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/objdetect/include/opencv2/objdetect.hpp
+ Main
+ opencv_objdetect
+ Module
+C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/objdetect/include/opencv2/objdetect/detection_based_tracker.hpp
+ Main
+ opencv_objdetect
+ Module
+C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/objdetect/include/opencv2/objdetect/objdetect.hpp
+ Main
+ opencv_objdetect
+ Module
+C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/objdetect/src/cascadedetect.cpp
+ Main
+ opencv_objdetect
+ Module
+C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/objdetect/src/cascadedetect_convert.cpp
+ Main
+ opencv_objdetect
+ Module
+C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/objdetect/src/detection_based_tracker.cpp
+ Main
+ opencv_objdetect
+ Module
+C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/objdetect/src/hog.cpp
+ Main
+ opencv_objdetect
+ Module
+C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/objdetect/src/main.cpp
+ Main
+ opencv_objdetect
+ Module
+C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/objdetect/src/qrcode.cpp
+ Main
+ opencv_objdetect
+ Module
+C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/objdetect/src/opencl/cascadedetect.cl
+ Main
+ opencv_objdetect
+ Module
+C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/objdetect/src/opencl/objdetect_hog.cl
+ Main
+ opencv_objdetect
+ Module
+C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/build/modules/objdetect/opencl_kernels_objdetect.cpp
+ Main
+ opencv_objdetect
+ Module
+C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/build/modules/objdetect/opencl_kernels_objdetect.hpp
+ Main
+ opencv_objdetect
+ Module
+C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/objdetect/src/cascadedetect.hpp
+ Main
+ opencv_objdetect
+ Module
+C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/objdetect/src/precomp.hpp
+ Main
+ opencv_objdetect
+ Module
+C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/build/cvconfig.h
+C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/build/opencv2/opencv_modules.hpp
+C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/build/modules/objdetect/opencv_objdetect_pch.cpp
+ Main
+ opencv_objdetect
+ Module
+C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/build/modules/objdetect/vs_version.rc
+C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/build/modules/objdetect/opencv_objdetect_main.cpp
+C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/build/CMakeFiles/061be148baf6532d744719052c71dee5/opencl_kernels_objdetect.cpp.rule

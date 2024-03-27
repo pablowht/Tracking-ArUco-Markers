@@ -1,0 +1,17 @@
+﻿  Processing OpenCL kernels (video)
+  Building Custom Rule C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/video/CMakeLists.txt
+  opencv_video_pch.cpp
+  bgfg_KNN.cpp
+  bgfg_gaussmix2.cpp
+  camshift.cpp
+  dis_flow.cpp
+  ecc.cpp
+  kalman.cpp
+  lkpyramid.cpp
+  optflowgf.cpp
+  optical_flow_io.cpp
+  variational_refinement.cpp
+  opencl_kernels_video.cpp
+  opencv_video_main.cpp
+     Creando biblioteca C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/build/lib/Release/opencv_video450.lib y objeto C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/build/lib/Release/opencv_video450.exp
+  opencv_video.vcxproj -> C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_video450.dll

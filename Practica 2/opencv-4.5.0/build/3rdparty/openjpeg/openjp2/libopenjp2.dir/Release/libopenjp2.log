@@ -1,0 +1,23 @@
+﻿  Building Custom Rule C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/3rdparty/openjpeg/openjp2/CMakeLists.txt
+  thread.c
+  bio.c
+  cio.c
+  dwt.c
+  event.c
+  image.c
+  invert.c
+  j2k.c
+  jp2.c
+  mct.c
+  mqc.c
+  openjpeg.c
+  opj_clock.c
+  pi.c
+  t1.c
+  t2.c
+  tcd.c
+  tgt.c
+  opj_malloc.c
+  function_list.c
+  sparse_array.c
+  libopenjp2.vcxproj -> C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\3rdparty\lib\Release\libopenjp2.lib

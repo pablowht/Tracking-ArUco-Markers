@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/core/misc/java/src/java/core+Core.jcode.in
+C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/java/common.cmake
+C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/java/generator/CMakeLists.txt
+C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/java/generator/android/java/org/opencv/android/OpenCVLoader.java.in
+C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/java/generator/src/java/org/opencv/osgi/OpenCVNativeLoader.java.in

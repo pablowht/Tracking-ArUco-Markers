@@ -1,0 +1,15 @@
+﻿  Building Custom Rule C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/imgproc/CMakeLists.txt
+  imgwarp.avx2.cpp
+  resize.avx2.cpp
+  accum.avx2.cpp
+  bilateral_filter.avx2.cpp
+  box_filter.avx2.cpp
+  filter.avx2.cpp
+  color_hsv.avx2.cpp
+  color_rgb.avx2.cpp
+  color_yuv.avx2.cpp
+  median_blur.avx2.cpp
+  morph.avx2.cpp
+  smooth.avx2.cpp
+  sumpixels.avx2.cpp
+  opencv_imgproc_AVX2.vcxproj -> C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\imgproc\opencv_imgproc_AVX2.dir\Release\opencv_imgproc_AVX2.lib

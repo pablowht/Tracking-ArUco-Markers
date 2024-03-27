@@ -1,0 +1,12 @@
+//user-defined headers
+#include "C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/core/misc/python/pyopencv_async.hpp"
+#include "C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/core/misc/python/pyopencv_cuda.hpp"
+#include "C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/core/misc/python/pyopencv_umat.hpp"
+#include "C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/flann/misc/python/pyopencv_flann.hpp"
+#include "C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/ml/misc/python/pyopencv_ml.hpp"
+#include "C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/dnn/misc/python/pyopencv_dnn.hpp"
+#include "C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/features2d/misc/python/pyopencv_features2d.hpp"
+#include "C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/videoio/misc/python/pyopencv_videoio.hpp"
+#include "C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/objdetect/misc/python/pyopencv_objdetect.hpp"
+#include "C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/stitching/misc/python/pyopencv_stitching.hpp"
+#include "C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/gapi/misc/python/pyopencv_gapi.hpp"

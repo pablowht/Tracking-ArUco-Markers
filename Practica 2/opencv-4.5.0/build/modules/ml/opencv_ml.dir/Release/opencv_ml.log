@@ -1,0 +1,20 @@
+﻿  Building Custom Rule C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/ml/CMakeLists.txt
+  opencv_ml_pch.cpp
+  ann_mlp.cpp
+  boost.cpp
+  data.cpp
+  em.cpp
+  gbt.cpp
+  inner_functions.cpp
+  kdtree.cpp
+  knearest.cpp
+  lr.cpp
+  nbayes.cpp
+  rtrees.cpp
+  svm.cpp
+  svmsgd.cpp
+  testset.cpp
+  tree.cpp
+  opencv_ml_main.cpp
+     Creando biblioteca C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/build/lib/Release/opencv_ml450.lib y objeto C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/build/lib/Release/opencv_ml450.exp
+  opencv_ml.vcxproj -> C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_ml450.dll

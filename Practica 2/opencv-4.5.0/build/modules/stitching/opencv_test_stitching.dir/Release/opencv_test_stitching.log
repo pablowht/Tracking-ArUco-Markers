@@ -1,0 +1,8 @@
+﻿  Building Custom Rule C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/stitching/CMakeLists.txt
+  opencv_test_stitching_pch.cpp
+  test_warpers.cpp
+  test_blenders.cpp
+  test_blenders.cuda.cpp
+  test_main.cpp
+  test_matchers.cpp
+  opencv_test_stitching.vcxproj -> C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_test_stitching.exe

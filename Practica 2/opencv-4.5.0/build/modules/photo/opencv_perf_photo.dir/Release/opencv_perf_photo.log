@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/photo/CMakeLists.txt
+  opencv_perf_photo_pch.cpp
+  perf_denoising.cpp
+  perf_cuda.cpp
+  perf_inpaint.cpp
+  perf_main.cpp
+  opencv_perf_photo.vcxproj -> C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_perf_photo.exe

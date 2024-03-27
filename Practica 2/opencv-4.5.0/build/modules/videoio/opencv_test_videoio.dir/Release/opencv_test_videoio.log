@@ -1,0 +1,11 @@
+﻿  Building Custom Rule C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/videoio/CMakeLists.txt
+  opencv_test_videoio_pch.cpp
+  test_camera.cpp
+  test_container_avi.cpp
+  test_dynamic.cpp
+  test_ffmpeg.cpp
+  test_gstreamer.cpp
+  test_main.cpp
+  test_mfx.cpp
+  test_video_io.cpp
+  opencv_test_videoio.vcxproj -> C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_test_videoio.exe

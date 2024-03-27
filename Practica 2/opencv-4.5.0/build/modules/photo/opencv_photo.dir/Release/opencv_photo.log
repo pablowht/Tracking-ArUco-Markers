@@ -1,0 +1,30 @@
+﻿  Processing OpenCL kernels (photo)
+  Building Custom Rule C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/photo/CMakeLists.txt
+  opencv_photo_pch.cpp
+  align.cpp
+  calibrate.cpp
+  contrast_preserve.cpp
+  denoise_tvl1.cpp
+  denoising.cpp
+C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\photo\src\contrast_preserve.hpp(289,106): warning C4244: '=': conversión de 'double' a '_Tp'; posible pérdida de datos
+          with
+          [
+              _Tp=float
+          ] (compilando archivo de origen C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\photo\src\contrast_preserve.cpp)
+C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\photo\src\contrast_preserve.hpp(361,69): warning C4244: '=': conversión de 'double' a '_Tp'; posible pérdida de datos
+          with
+          [
+              _Tp=float
+          ] (compilando archivo de origen C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\photo\src\contrast_preserve.cpp)
+  denoising.cuda.cpp
+  hdr_common.cpp
+  inpaint.cpp
+  merge.cpp
+  npr.cpp
+  seamless_cloning.cpp
+  seamless_cloning_impl.cpp
+  tonemap.cpp
+  opencl_kernels_photo.cpp
+  opencv_photo_main.cpp
+     Creando biblioteca C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/build/lib/Release/opencv_photo450.lib y objeto C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/build/lib/Release/opencv_photo450.exp
+  opencv_photo.vcxproj -> C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\bin\Release\opencv_photo450.dll

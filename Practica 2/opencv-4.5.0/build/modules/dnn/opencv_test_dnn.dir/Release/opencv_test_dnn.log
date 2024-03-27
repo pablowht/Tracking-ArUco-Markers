@@ -1,0 +1,19 @@
+﻿  Building Custom Rule C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/modules/dnn/CMakeLists.txt
+  opencv_test_dnn_pch.cpp
+  npy_blob.cpp
+  test_backends.cpp
+  test_caffe_importer.cpp
+  test_common.cpp
+  test_darknet_importer.cpp
+  test_googlenet.cpp
+  test_halide_layers.cpp
+  test_ie_models.cpp
+  test_layers.cpp
+  test_main.cpp
+  test_misc.cpp
+  test_model.cpp
+  test_nms.cpp
+  test_onnx_importer.cpp
+  test_tf_importer.cpp
+  test_torch_importer.cpp
+LINK : fatal error LNK1181: no se puede abrir el archivo de entrada '..\..\lib\Release\opencv_dnn450.lib'

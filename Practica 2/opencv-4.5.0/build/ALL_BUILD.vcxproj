@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C4A0ACE6-7D05-3DFC-B1D8-891868FA7E0D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\icv\include;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\iw\include;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\icv\include;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\iw\include;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\bin\cmake.exe" "-SC:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0" "-BC:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/build" --check-stamp-file "C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CMakeFindJavaCommon.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CMakeParseArguments.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CMakePushCheckState.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CPack.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CPackComponent.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CheckFunctionExists.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CheckIncludeFileCXX.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CheckLibraryExists.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CheckSourceCompiles.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CheckTypeSize.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\FindBLAS.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\FindGit.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\FindJNI.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\FindLAPACK.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\FindOpenMP.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\FindPythonInterp.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\FindThreads.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\TestBigEndian.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Templates\CPackConfig.cmake.in;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\3rdparty\ippicv\ippicv.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\CMakeFiles\3.27.8\CMakeCCompiler.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\CMakeFiles\3.27.8\CMakeCXXCompiler.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\CMakeFiles\3.27.8\CMakeRCCompiler.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\CMakeFiles\3.27.8\CMakeSystem.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVCRTLinkage.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVCompilerOptimizations.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVCompilerOptions.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVDetectApacheAnt.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVDetectCXXCompiler.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVDetectDirectX.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVDetectOpenCL.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVDetectPython.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVDetectTrace.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVDetectVTK.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVDownload.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVExtraTargets.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVFindFrameworks.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVFindIPP.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVFindIPPIW.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVFindLAPACK.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVFindLibsGUI.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVFindLibsGrfmt.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVFindLibsPerf.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVFindLibsVideo.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVFindMKL.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVFindOpenBLAS.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVFindProtobuf.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVGenABI.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVGenAndroidMK.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVGenConfig.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVGenHeaders.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVGenSetupVars.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVInstallLayout.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVMinDepVersions.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVModule.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVPCHSupport.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVPackaging.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVUtils.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVVersion.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\checks\directx.cpp;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\checks\opencl.cpp;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\checks\win32uitest.cpp;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\platforms\OpenCV-Windows.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\templates\OpenCVConfig-version.cmake.in;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\templates\OpenCVConfig.cmake.in;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\templates\OpenCVConfig.root-WIN32.cmake.in;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\templates\cmake_uninstall.cmake.in;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\templates\custom_hal.hpp.in;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\templates\cv_cpu_config.h.in;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\templates\cvconfig.h.in;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\templates\opencv_modules.hpp.in;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\templates\setup_vars_win32.cmd.in;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\core\include\opencv2\core\version.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\bin\cmake.exe" "-SC:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0" "-BC:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/build" --check-stamp-file "C:/Users/User/Documents/Universidad/Tercero Carrera/3.2. Realidad Virtual/Practica 2/opencv-4.5.0/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CMakeFindJavaCommon.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CMakeParseArguments.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CMakePushCheckState.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CPack.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CPackComponent.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CheckFunctionExists.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CheckIncludeFileCXX.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CheckLibraryExists.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CheckSourceCompiles.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\CheckTypeSize.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\FindBLAS.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\FindGit.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\FindJNI.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\FindLAPACK.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\FindOpenMP.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\FindPythonInterp.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\FindThreads.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Modules\TestBigEndian.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\cmake-3.27.8-windows-x86_64\share\cmake-3.27\Templates\CPackConfig.cmake.in;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\3rdparty\ippicv\ippicv.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\CMakeFiles\3.27.8\CMakeCCompiler.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\CMakeFiles\3.27.8\CMakeCXXCompiler.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\CMakeFiles\3.27.8\CMakeRCCompiler.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\CMakeFiles\3.27.8\CMakeSystem.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVCRTLinkage.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVCompilerOptimizations.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVCompilerOptions.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVDetectApacheAnt.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVDetectCXXCompiler.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVDetectDirectX.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVDetectOpenCL.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVDetectPython.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVDetectTrace.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVDetectVTK.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVDownload.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVExtraTargets.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVFindFrameworks.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVFindIPP.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVFindIPPIW.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVFindLAPACK.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVFindLibsGUI.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVFindLibsGrfmt.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVFindLibsPerf.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVFindLibsVideo.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVFindMKL.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVFindOpenBLAS.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVFindProtobuf.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVGenABI.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVGenAndroidMK.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVGenConfig.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVGenHeaders.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVGenSetupVars.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVInstallLayout.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVMinDepVersions.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVModule.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVPCHSupport.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVPackaging.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVUtils.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\OpenCVVersion.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\checks\directx.cpp;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\checks\opencl.cpp;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\checks\win32uitest.cpp;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\platforms\OpenCV-Windows.cmake;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\templates\OpenCVConfig-version.cmake.in;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\templates\OpenCVConfig.cmake.in;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\templates\OpenCVConfig.root-WIN32.cmake.in;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\templates\cmake_uninstall.cmake.in;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\templates\custom_hal.hpp.in;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\templates\cv_cpu_config.h.in;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\templates\cvconfig.h.in;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\templates\opencv_modules.hpp.in;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\cmake\templates\setup_vars_win32.cmd.in;C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\modules\core\include\opencv2\core\version.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\ZERO_CHECK.vcxproj">
+      <Project>{C8E54BCA-F6E7-3767-95F3-3C55566B15F7}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\3rdparty\openexr\IlmImf.vcxproj">
+      <Project>{C632F02B-D867-388F-830B-2DB11AB2B2C5}</Project>
+      <Name>IlmImf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\ade.vcxproj">
+      <Project>{347A436E-6965-3CE4-8511-5D9CE674E57F}</Project>
+      <Name>ade</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\3rdparty\ippiw\ippiw.vcxproj">
+      <Project>{B1DEA240-DAC1-3A71-880A-EC6B8188F8D4}</Project>
+      <Name>ippiw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\3rdparty\ittnotify\ittnotify.vcxproj">
+      <Project>{13C7C0BD-474C-38C7-9A20-7D014487DC0B}</Project>
+      <Name>ittnotify</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\3rdparty\libjpeg-turbo\libjpeg-turbo.vcxproj">
+      <Project>{042DEA6E-A8F1-323F-9B74-E49504C62E24}</Project>
+      <Name>libjpeg-turbo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\3rdparty\openjpeg\openjp2\libopenjp2.vcxproj">
+      <Project>{4F46D8DE-AB2A-3F56-BF88-685F36AF6BCC}</Project>
+      <Name>libopenjp2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\3rdparty\libpng\libpng.vcxproj">
+      <Project>{B49E85DB-12CA-3A22-8C79-63369EDB803D}</Project>
+      <Name>libpng</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\3rdparty\protobuf\libprotobuf.vcxproj">
+      <Project>{D339E348-3218-3D0B-A2F5-5B3FC054A36E}</Project>
+      <Name>libprotobuf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\3rdparty\libtiff\libtiff.vcxproj">
+      <Project>{E3170B4A-C884-3893-8FE2-D51D2980A108}</Project>
+      <Name>libtiff</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\3rdparty\libwebp\libwebp.vcxproj">
+      <Project>{1600458A-E8EE-3E6B-809D-49990D7A2997}</Project>
+      <Name>libwebp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\apps\annotation\opencv_annotation.vcxproj">
+      <Project>{CD090108-02D3-304B-A43E-28C4804B79D5}</Project>
+      <Name>opencv_annotation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\calib3d\opencv_calib3d.vcxproj">
+      <Project>{8A275F1F-7CBE-3B9D-B1A4-03861448A934}</Project>
+      <Name>opencv_calib3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\calib3d\opencv_calib3d_AVX2.vcxproj">
+      <Project>{C3713C9E-DE66-3C89-82F6-2F37C563D54C}</Project>
+      <Name>opencv_calib3d_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\core\opencv_core.vcxproj">
+      <Project>{F014CDE1-2BBD-3191-AC1A-A4FF04881160}</Project>
+      <Name>opencv_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\core\opencv_core_AVX.vcxproj">
+      <Project>{CEF3D405-D265-37E0-8E87-7E9A54980570}</Project>
+      <Name>opencv_core_AVX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\core\opencv_core_AVX2.vcxproj">
+      <Project>{BD142E00-77B3-3AE8-8CD3-0064F1EE0688}</Project>
+      <Name>opencv_core_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\core\opencv_core_AVX512_SKX.vcxproj">
+      <Project>{421D725D-630B-3858-B572-ACD1D50A3823}</Project>
+      <Name>opencv_core_AVX512_SKX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\core\opencv_core_SSE4_1.vcxproj">
+      <Project>{838CD564-1212-31A3-B52C-98BC5CEDEB91}</Project>
+      <Name>opencv_core_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\core\opencv_core_SSE4_2.vcxproj">
+      <Project>{E4BC9551-4373-3811-8532-1601190EB84C}</Project>
+      <Name>opencv_core_SSE4_2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\dnn\opencv_dnn.vcxproj">
+      <Project>{F178CA83-4F24-3EF0-AFE4-066E0A83F567}</Project>
+      <Name>opencv_dnn</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\dnn\opencv_dnn_AVX.vcxproj">
+      <Project>{62C22D5F-9B6E-3BF0-A342-9D06FEB0CD73}</Project>
+      <Name>opencv_dnn_AVX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\dnn\opencv_dnn_AVX2.vcxproj">
+      <Project>{A9EB827A-13B3-3243-A78B-7E17C3BA711D}</Project>
+      <Name>opencv_dnn_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\dnn\opencv_dnn_AVX512_SKX.vcxproj">
+      <Project>{7A7AB833-B896-3ED2-BC68-D9E2B92D1058}</Project>
+      <Name>opencv_dnn_AVX512_SKX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\features2d\opencv_features2d.vcxproj">
+      <Project>{B8100A87-25A7-3D48-A613-40D10D121A3F}</Project>
+      <Name>opencv_features2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\features2d\opencv_features2d_AVX2.vcxproj">
+      <Project>{5E05DD8C-7454-37D0-BC62-DE11635D6FFB}</Project>
+      <Name>opencv_features2d_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\features2d\opencv_features2d_AVX512_SKX.vcxproj">
+      <Project>{32F48A13-75E2-3CAF-AB52-3F735AAA2BDA}</Project>
+      <Name>opencv_features2d_AVX512_SKX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\features2d\opencv_features2d_SSE4_1.vcxproj">
+      <Project>{864AD571-0FBA-35A5-9B69-199EAFC58D8B}</Project>
+      <Name>opencv_features2d_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\flann\opencv_flann.vcxproj">
+      <Project>{72A5596E-96C8-31C3-A0AE-DC99F6FD2B85}</Project>
+      <Name>opencv_flann</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\gapi\opencv_gapi.vcxproj">
+      <Project>{CF911B5F-32BB-3C93-92C7-6517A32924F9}</Project>
+      <Name>opencv_gapi</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\gapi\opencv_gapi_AVX2.vcxproj">
+      <Project>{942049BF-D6E2-3757-99CD-C42CF51F954A}</Project>
+      <Name>opencv_gapi_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\gapi\opencv_gapi_SSE4_1.vcxproj">
+      <Project>{BE2B7179-3899-3972-8E68-2EA43628D9B6}</Project>
+      <Name>opencv_gapi_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\highgui\opencv_highgui.vcxproj">
+      <Project>{39C0BE60-3726-3CD6-8D52-085E4777AD27}</Project>
+      <Name>opencv_highgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\imgcodecs\opencv_imgcodecs.vcxproj">
+      <Project>{3DAAB7B7-5281-305A-816E-4287BFD29DA5}</Project>
+      <Name>opencv_imgcodecs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\imgproc\opencv_imgproc.vcxproj">
+      <Project>{E208567F-B605-3EC5-BCEF-AEFE1514F23E}</Project>
+      <Name>opencv_imgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\imgproc\opencv_imgproc_AVX.vcxproj">
+      <Project>{AF3F80EF-10B8-38DF-BE5D-974A40D93883}</Project>
+      <Name>opencv_imgproc_AVX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\imgproc\opencv_imgproc_AVX2.vcxproj">
+      <Project>{D24D84EE-4F9A-383F-A7FC-E93999832812}</Project>
+      <Name>opencv_imgproc_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\imgproc\opencv_imgproc_AVX512_SKX.vcxproj">
+      <Project>{87C5DCD0-D63C-3792-BAFD-9A5330A67A1C}</Project>
+      <Name>opencv_imgproc_AVX512_SKX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\imgproc\opencv_imgproc_SSE4_1.vcxproj">
+      <Project>{925D86CE-AE04-376B-95A8-20AD03CB024A}</Project>
+      <Name>opencv_imgproc_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\apps\interactive-calibration\opencv_interactive-calibration.vcxproj">
+      <Project>{0DD21A02-CEF6-3118-84C2-56686CD0B635}</Project>
+      <Name>opencv_interactive-calibration</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\ml\opencv_ml.vcxproj">
+      <Project>{DF58FDD5-8E0A-3F9E-8EDD-96E19CA80435}</Project>
+      <Name>opencv_ml</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\objdetect\opencv_objdetect.vcxproj">
+      <Project>{1CA61082-54B9-38F5-829E-AADA8076F647}</Project>
+      <Name>opencv_objdetect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\calib3d\opencv_perf_calib3d.vcxproj">
+      <Project>{85E8429B-C7A4-3120-8FB4-B2901A57DC25}</Project>
+      <Name>opencv_perf_calib3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\core\opencv_perf_core.vcxproj">
+      <Project>{BBAFBB25-5EA5-35CB-9467-224D7AB791C0}</Project>
+      <Name>opencv_perf_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\dnn\opencv_perf_dnn.vcxproj">
+      <Project>{E5B6930A-2EDF-367B-9D6A-6461A65D1D3D}</Project>
+      <Name>opencv_perf_dnn</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\features2d\opencv_perf_features2d.vcxproj">
+      <Project>{886F78F5-BEAE-353D-808C-370BD615D421}</Project>
+      <Name>opencv_perf_features2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\gapi\opencv_perf_gapi.vcxproj">
+      <Project>{845E9B2E-FA7F-3959-935D-B7D62CAD0DEC}</Project>
+      <Name>opencv_perf_gapi</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\imgcodecs\opencv_perf_imgcodecs.vcxproj">
+      <Project>{AA46F9C8-7F87-320D-8080-E1A583673178}</Project>
+      <Name>opencv_perf_imgcodecs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\imgproc\opencv_perf_imgproc.vcxproj">
+      <Project>{1C406D38-1B5E-3C71-A26F-F37625DEF58D}</Project>
+      <Name>opencv_perf_imgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\objdetect\opencv_perf_objdetect.vcxproj">
+      <Project>{F63ED72C-5E61-324F-9EA8-A74E82DC3371}</Project>
+      <Name>opencv_perf_objdetect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\photo\opencv_perf_photo.vcxproj">
+      <Project>{05571F6D-9C8A-39AA-BF3D-44CC6CA9577A}</Project>
+      <Name>opencv_perf_photo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\stitching\opencv_perf_stitching.vcxproj">
+      <Project>{9210C3C2-951D-3F8F-BD77-7200DDA14EA1}</Project>
+      <Name>opencv_perf_stitching</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\video\opencv_perf_video.vcxproj">
+      <Project>{71D29055-0619-3167-ADC8-5A6514FAA31F}</Project>
+      <Name>opencv_perf_video</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\videoio\opencv_perf_videoio.vcxproj">
+      <Project>{ED8D3667-2B5B-3DD2-8FEA-E6ACDEF522AA}</Project>
+      <Name>opencv_perf_videoio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\photo\opencv_photo.vcxproj">
+      <Project>{F3703275-5E9A-3F4E-9BDA-93CFED3E170F}</Project>
+      <Name>opencv_photo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\stitching\opencv_stitching.vcxproj">
+      <Project>{C5E326D6-DABA-3F93-8AB8-D4B0AA20F388}</Project>
+      <Name>opencv_stitching</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\calib3d\opencv_test_calib3d.vcxproj">
+      <Project>{79CCCF5C-559F-3D59-9DCC-71C1BC252882}</Project>
+      <Name>opencv_test_calib3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\core\opencv_test_core.vcxproj">
+      <Project>{752B5B7F-BA81-3713-80C5-E68F9A0735C3}</Project>
+      <Name>opencv_test_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\core\opencv_test_core_AVX.vcxproj">
+      <Project>{55340D01-3C66-3A67-9681-2315F13357C8}</Project>
+      <Name>opencv_test_core_AVX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\core\opencv_test_core_AVX2.vcxproj">
+      <Project>{B97F770B-DED6-3D77-A3A8-30EABA94B580}</Project>
+      <Name>opencv_test_core_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\core\opencv_test_core_AVX512_SKX.vcxproj">
+      <Project>{A69AE321-637B-3C56-BD5A-48BF2A14506A}</Project>
+      <Name>opencv_test_core_AVX512_SKX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\core\opencv_test_core_FP16.vcxproj">
+      <Project>{BEF1E4E0-C02E-341D-8A1C-1791F02C89DA}</Project>
+      <Name>opencv_test_core_FP16</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\core\opencv_test_core_SSE4_1.vcxproj">
+      <Project>{F4FB1BEF-B125-30BF-B370-055A3E9D081A}</Project>
+      <Name>opencv_test_core_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\core\opencv_test_core_SSE4_2.vcxproj">
+      <Project>{C27BE061-FC09-3594-BCD1-C936972F763A}</Project>
+      <Name>opencv_test_core_SSE4_2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\dnn\opencv_test_dnn.vcxproj">
+      <Project>{706ED39C-5B24-32C6-B7E3-FBDDF939B73C}</Project>
+      <Name>opencv_test_dnn</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\features2d\opencv_test_features2d.vcxproj">
+      <Project>{7E08C53C-31DD-3147-9CEF-4853B948DDD5}</Project>
+      <Name>opencv_test_features2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\flann\opencv_test_flann.vcxproj">
+      <Project>{B82D4D60-0775-3163-AF54-26038BC9A59B}</Project>
+      <Name>opencv_test_flann</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\gapi\opencv_test_gapi.vcxproj">
+      <Project>{5C149A07-AEE6-3003-B727-6453A4B895D1}</Project>
+      <Name>opencv_test_gapi</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\highgui\opencv_test_highgui.vcxproj">
+      <Project>{297629D7-FB73-31E9-980F-A2C03773DA56}</Project>
+      <Name>opencv_test_highgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\imgcodecs\opencv_test_imgcodecs.vcxproj">
+      <Project>{E843F2B5-B1F3-375E-B2B4-1767238339C4}</Project>
+      <Name>opencv_test_imgcodecs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\imgproc\opencv_test_imgproc.vcxproj">
+      <Project>{23E94CCC-5963-34F6-90EC-DD1F5840CEE0}</Project>
+      <Name>opencv_test_imgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\ml\opencv_test_ml.vcxproj">
+      <Project>{5A9902DB-C5E8-3291-A413-603209094382}</Project>
+      <Name>opencv_test_ml</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\objdetect\opencv_test_objdetect.vcxproj">
+      <Project>{4499D044-7B59-3C12-9174-81FB0ADD2B43}</Project>
+      <Name>opencv_test_objdetect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\photo\opencv_test_photo.vcxproj">
+      <Project>{6CE6C811-3580-38D9-9777-82FF13C986E7}</Project>
+      <Name>opencv_test_photo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\stitching\opencv_test_stitching.vcxproj">
+      <Project>{60ABFDFE-0295-387B-AD2C-CB74AD2E9654}</Project>
+      <Name>opencv_test_stitching</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\video\opencv_test_video.vcxproj">
+      <Project>{608448A3-2393-362D-8736-21FA19E0F351}</Project>
+      <Name>opencv_test_video</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\videoio\opencv_test_videoio.vcxproj">
+      <Project>{5117B7A0-5F82-34CE-AABA-CF5590B49298}</Project>
+      <Name>opencv_test_videoio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\ts\opencv_ts.vcxproj">
+      <Project>{D24E4C8C-3F71-30B9-AF51-482F3B0B8B66}</Project>
+      <Name>opencv_ts</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\apps\version\opencv_version.vcxproj">
+      <Project>{0B679C47-700E-39BA-971D-3873B4C970F8}</Project>
+      <Name>opencv_version</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\apps\version\opencv_version_win32.vcxproj">
+      <Project>{072D697A-2944-3265-BDA5-7821C889F14F}</Project>
+      <Name>opencv_version_win32</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\video\opencv_video.vcxproj">
+      <Project>{4F40B677-D6E9-3D1C-855F-BEBA30637133}</Project>
+      <Name>opencv_video</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\videoio\opencv_videoio.vcxproj">
+      <Project>{C4D8AAB6-EC3C-3A1C-B5E0-FBB9CB0916BD}</Project>
+      <Name>opencv_videoio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\modules\.firstpass\videoio\opencv_videoio_plugins.vcxproj">
+      <Project>{8E206985-7222-384B-9656-5187748D1D3E}</Project>
+      <Name>opencv_videoio_plugins</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\apps\visualisation\opencv_visualisation.vcxproj">
+      <Project>{D59949A3-CAEB-3D30-9DD5-2770042D3952}</Project>
+      <Name>opencv_visualisation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\3rdparty\quirc\quirc.vcxproj">
+      <Project>{E4D5C419-8A49-3A1B-BE86-96F38AFB172B}</Project>
+      <Name>quirc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\Universidad\Tercero Carrera\3.2. Realidad Virtual\Practica 2\opencv-4.5.0\build\3rdparty\zlib\zlib.vcxproj">
+      <Project>{34499F52-0710-3F63-B763-6584B4A85ADB}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
